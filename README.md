@@ -10,7 +10,7 @@
  # How you imported the data into Aiven
 -  After cleaning the public jcars data and creating the necessary dashboards. Using the already existing PostgreSQL sevice in Aiven, connection was achieved through
    host,database name,username,port and password provided in the Aiven service dashboard.
--  DBeaver was used to import the public jcars document to the PostgreSQL database.
+-  DBeaver was used to import the jcars document to the PostgreSQL database.
  - Once the import was complete, SQL queries were executed to confirm that all records had been loaded successfully and to perform additional data validation checks.    The imported data was then ready for analysis and visualization in Power BI.
 # How you connected power BI to the database
 - Open Power BI Desktop and select Get Data.
